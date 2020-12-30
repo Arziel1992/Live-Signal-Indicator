@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <link href="./css.css" rel="stylesheet" />
+        <script src="js.js" type="text/javascript" async></script>
+
+        <title>Live Signal Indicator</title>
+    </head>
+    <body onload="display_ct();">
+        <div id="grid-container">
+            <div id="title">Live Signal Indicator</div>
+            <div id="clock"></div>
+            <div id="timer">Timer 00:00:00:00</div>
+            <div id="timer_reset_div">
+                <span id="playButton"
+                    ><svg width="24" height="24" viewBox="0 0 24 24">
+                        <path d="M15 12.3301L9 16.6603L9 8L15 12.3301Z" /></svg
+                ></span>
+                <span id="pauseButton"
+                    ><svg width="24" height="24" viewBox="0 0 24 24">
+                        <path d="M11 7H8V17H11V7Z" />
+                        <path d="M13 17H16V7H13V17Z" /></svg
+                ></span>
+                <span id="resetButton" class="resetButton" onclick="reset();"
+                    ><svg width="24" height="24" viewBox="0 0 24 24">
+                        <path d="M7 7H17V17H7V7Z" /></svg
+                ></span>
+            </div>
+            <div id="air" class="offAir">
+                <span id="text" class="text_offAir" onclick="toggle_air();"
+                    >Off Air</span
+                >
+            </div>
+        </div>
+    </body>
+</html>
