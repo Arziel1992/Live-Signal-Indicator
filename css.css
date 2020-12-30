@@ -85,7 +85,7 @@ body {
         #ff2d95 0px 0px 50px, #ff2d95 0px 0px 75px;
 }
 
-.text_offAir:active:hover {
+.text_onAir:active:hover {
     box-shadow: inset 20px 20px 60px #bb2d3b, inset -20px -20px 60px #fd3d4f;
 }
 
@@ -96,7 +96,7 @@ body {
         0 0 30px #49ff18, 0 0 40px #49ff18, 0 0 55px #49ff18, 0 0 75px #49ff18;
 }
 
-.text_onAir:active:hover {
+.text_offAir:active:hover {
     box-shadow: inset 20px 20px 60px #157347, inset -20px -20px 60px #1d9b61;
 }
 
